@@ -1,0 +1,42 @@
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content{
+    color: white;
+
+    h3{
+        margin-bottom: 18px;
+        color: #65dc97;
+        font-size: 25px;
+        
+    }
+
+    h2{
+        font-size: 35px;
+    }
+}
+
+.item{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    background-color: rgba(0, 0, 0, 0.363);
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    span{
+        font-size: 18px;
+    }
+}
+
+.itemName{
+    color: #6599dc;
+    font-size: 18px;
+}
+

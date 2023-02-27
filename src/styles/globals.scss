@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+  font-family: Mulish, sans-serif;
+}
+
+:root{
+  --favorite-black: #202020;
+  --favorite-black-800: #131313;
+  --chef-red: #dc6565;
+
+  --white: rgb(221, 221, 221);
+  --white-800: #ffff;
+
+  --dino-green: #65dc97;
+  --blue: #6599dc;
+}
+
+button{
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+body{
+  background-color: var(--favorite-black);
+}
+
+body, input, textarea, select, button, a, span{
+  font: 400 1rem;
+  font-family: Mulish, sans-serif;
+}

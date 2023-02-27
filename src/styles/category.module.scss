@@ -1,0 +1,96 @@
+.createCategoryContainer {
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    h1 {
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+}
+
+.categoryForm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 30px;
+    gap: 5px;
+
+    Input {
+        width: 60%;
+        height: 100%;
+    }
+
+    Button {
+        display: flex;
+        width: 10%;
+        height: 20px;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+}
+
+.centerDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.listCategoryContainer {
+    margin-top: 30px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.507);
+    border-radius: 15px;
+    padding: 15px;
+
+    h1 {
+        color: white;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+$colors: #bc1a1a25, #cc602e25, #dbd03425, #9b59b625, #0ff16d25, #2287e625, #e73c9225;
+$color-count: length($colors);
+
+
+
+.list {
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 12px;
+    gap: 10px;
+    width: 90%;
+
+    li {
+        color: white;
+        font-size: 20px;
+        border-radius: 15px;
+        padding: 8px;
+        width: 100%;
+    }
+
+    @for $i from 1 through 100 {
+        li:nth-child(#{$i}) {
+            $random-color: nth($colors, random(7));
+            background-color: $random-color;
+            
+        }
+    }
+}

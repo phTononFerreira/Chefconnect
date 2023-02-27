@@ -1,0 +1,38 @@
+.mainHeader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+
+.logo {
+    width: 7.5rem;
+    height: auto;
+    cursor: pointer;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    font-family: Mulish, sans-serif;
+    cursor: pointer;
+    transition-duration: .3s;
+
+    &:hover{
+        color: #dc6565;
+    }
+
+    background-color: transparent;
+    border: 0;
+}
+
+.divItems {
+    display: flex;
+    align-items: center;
+    gap: 4vw;
+
+}
