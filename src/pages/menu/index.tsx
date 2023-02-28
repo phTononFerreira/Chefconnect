@@ -98,7 +98,7 @@ export default function Menu() {
                     <div className={styles.grid}>
                         {products.length != 0 ? (products.map((item) => {
                             return (
-                                <div className={styles.product}>
+                                <div key={item.id} className={styles.product}>
                                     <img className={styles.Pimg} src={`http://localhost:3333/files/${item.banner}`} alt="" />
                                     <span className={styles.Pname}>{item.name}</span>
                                     <span className={styles.Pvalor}>R$ {item.price}</span>
