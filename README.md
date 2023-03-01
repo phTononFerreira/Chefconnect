@@ -18,6 +18,7 @@ O Chefconnect foi desenvolvido utilizando as seguintes tecnologias:
 - Express.js
 - Multer
 - JWT (Json Web Token)
+- Prisma ORM
 
 ## 🧠 Teorias aprendidas
 - Criar rotas utilizando o framework Express.js
