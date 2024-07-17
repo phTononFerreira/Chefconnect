@@ -1,5 +1,5 @@
 # 👨‍🍳 Chefconnect
-![image](https://github.com/user-attachments/assets/2b1f6c4b-b21f-4215-973f-3d0d5fbadeb7)
+![image](https://github.com/user-attachments/assets/2b1f6c4b-b21f-4215-973f-3d0d5fbadeb7 "Categorias")
 Chefconnect é uma aplicação web para integração entre a cozinha, o chefe e os garçons de um restaurante. Desenvolvida em Next.js utilizando TypeScript, React e outras tecnologias, o Chefconnect permite que os funcionários do estabelecimento se comuniquem de forma mais eficiente e coordenem melhor o atendimento aos clientes.
 
 ## ⚙ Funcionalidades
